@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "FromtheWoods";
+  src: url("../graphics/FromtheWoods-Regular.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background-image: url("../graphics/bg.jpg");
+  background-size: 100vw 30vh;
+  background-repeat: repeat-y;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: "FromtheWoods", serif;
+  text-align: center;
+  font-size: 90px;
+}
+
+p {
+  text-align: center;
+  width: 700px;
+  margin: auto;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.benefit {
+  background-color: rgb(2, 80, 2);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: relative;
+  left: 10vw;
+  margin-top: 100px;
+}
+
+.benefit img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  display: block;
+  padding-top: 40px;
+}
+
+.benefit h3 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.benefit p {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.container {
+  /* border: 2px solid red; */
+  width: 80vw;
+  margin-inline: auto;
+}
+
+/* calc helps keeping the distance between the middle circle and the two left circles by calculating the distance with fixed value */
+.benefit.middleCircle {
+  position: absolute;
+  left: calc(10vw + 800px);
+  top: 85%;
+}
+
+
