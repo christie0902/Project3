@@ -104,3 +104,7 @@ footer p {
   font-size: 20px;
   width: 50%;
 }
+
+footer a {
+  color: grey;
+}
