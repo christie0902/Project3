@@ -26,7 +26,6 @@ p {
 
 .benefit {
   background-color: green;
-  display: flex;
   position: relative;
   width: 300px;
   height: 300px;
@@ -57,4 +56,5 @@ p {
   top: 160px;
   right: 50px;
   left: 50px;
+  text-align: center;
 }
