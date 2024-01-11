@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 @font-face {
   font-family: "FromtheWoods";
   src: url("../graphics/FromtheWoods-Regular.woff2");
@@ -11,6 +20,8 @@ body {
   background-repeat: repeat-y;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -29,8 +40,8 @@ p {
 
 .benefit {
   background-color: rgb(2, 80, 2);
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
   position: relative;
   left: 10vw;
@@ -50,7 +61,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .benefit p {
@@ -59,7 +70,7 @@ p {
   margin-right: auto;
   text-align: center;
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .container {
@@ -72,7 +83,24 @@ p {
 .benefit.middleCircle {
   position: absolute;
   left: calc(10vw + 800px);
-  top: 85%;
+  top: 75%;
 }
 
+footer {
+  background-color: rgb(2, 80, 2);
+  margin-top: 120px;
+}
 
+footer h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+footer p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  font-weight: lighter;
+  font-size: 20px;
+  width: 50%;
+}
